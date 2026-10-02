@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio Web | Fiorella Sierra Ames</title>
+
+    <!-- Archivo CSS principal -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Iconos FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- ENCABEZADO Y CLIMA -->
+    <header>
+        <!-- Distintivo de Clima Templado -->
+        <div class="clima-badge">
+            <div class="clima-icono">
+                <i class="fa-solid fa-cloud-sun"></i>
+            </div>
+            <h2>Clima Templado</h2>
+        </div>
+
+        <div class="contenedor">
+            <div class="perfil">
+                <div class="contenedorFoto">
+                    <img src="./imagenes/foto.jpg" alt="Foto de Fiorella Sierra Ames" class="foto">
+                </div>
+                <div class="profile-info">
+                    <h1>Fiorella Sierra Ames</h1>
+                    <p class="subtitulo">Estudiante de Ingeniería de Sistemas e Informática</p>
+                    <p class="frase">"El secreto de salir adelante es empezar."</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- SOBRE MÍ -->
+    <section id="sobre-mi">
+        <div class="contenedor">
+            <h2>Sobre Mí</h2>
+            <p>
+                Soy estudiante interesada en la tecnología, el diseño y el desarrollo de aplicaciones.
+            </p>
+            <p>
+                Actualmente curso mi formación en la <strong>Universidad Continental</strong>, enfocándome en aprender
+                nuevas herramientas digitales y crear soluciones útiles y creativas.
+            </p>
+        </div>
+    </section>
+
+    <!-- FORMACIÓN ACADÉMICA -->
+    <section id="formacion">
+        <div class="contenedor">
+            <h2>Formación Académica</h2>
+            <div class="formacion-card">
+                <h3>Universidad Continental</h3>
+                <p><strong>Carrera:</strong> Ingeniería de Sistemas e Informática</p>
+                <p><strong>Nivel actual:</strong> 1er ciclo</p>
+                <p><strong>Áreas de interés/destacadas:</strong> Matemática y Física</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROYECTOS -->
+    <section id="proyectos">
+        <div class="contenedor">
+            <h2>Mis Proyectos</h2>
+            <div class="proyectos-container">
+
+                <div class="proyecto">
+                    <h3>FisamEdu</h3>
+                    <p>Aplicación educativa desarrollada en MIT App Inventor.</p>
+                </div>
+
+                <div class="proyecto">
+                    <h3>Fraseo</h3>
+                    <p>Aplicación educativa desarrollada en MIT App Inventor.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- HABILIDADES -->
+    <section id="habilidades">
+        <div class="contenedor">
+            <h2>Habilidades</h2>
+            <div class="habilidades-lista">
+
+                <div class="habilidad">
+                    <i class="fa-brands fa-python"></i> Python
+                </div>
+
+                <div class="habilidad">
+                    <i class="fa-solid fa-mobile-screen-button"></i> MIT App Inventor
+                </div>
+
+                <div class="habilidad">
+                    <i class="fa-solid fa-lightbulb"></i> Creatividad
+                </div>
+
+                <div class="habilidad">
+                    <i class="fa-solid fa-users"></i> Trabajo en Equipo
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section id="contacto">
+        <div class="contenedor">
+            <h2>Contacto</h2>
+            <p style="text-align: center; margin-bottom: 25px;">Si deseas comunicarte conmigo o colaborar en un proyecto, ¡déjame un mensaje!</p>
+
+            <form id="contactForm">
+                <div class="form-group">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" placeholder="Escribe tu nombre" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="Escribe tu email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="mensaje">Mensaje</label>
+                    <textarea id="mensaje" rows="5" placeholder="Escribe tu mensaje" required></textarea>
+                </div>
+
+                <button type="submit">Enviar Mensaje</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- PIE DE PÁGINA -->
+    <footer>
+        <div class="contenedor">
+            <div class="enlaces">
+                <!-- Email -->
+                <a href="mailto:tu-correo@ejemplo.com" aria-label="Correo electrónico" title="Correo">
+                    <i class="fa-solid fa-envelope"></i>
+                </a>
+
+                <!-- WhatsApp -->
+                <a href="https://wa.me/51900000000" target="_blank" aria-label="WhatsApp" title="WhatsApp">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+
+                <!-- Instagram -->
+                <a href="https://instagram.com/tu_usuario" target="_blank" aria-label="Instagram" title="Instagram">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+            </div>
+
+            <p>&copy; 2026 Desarrollado por Fiorella Sierra Ames - Todos los derechos reservados</p>
+        </div>
+    </footer>
+
+    <!-- Archivo JavaScript -->
+    <script src="./codigo.js"></script>
+
+</body>
+
+</html>
